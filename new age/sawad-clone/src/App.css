@@ -283,6 +283,31 @@ body::before {
   cursor: pointer;
 }
 
+.experience-preview {
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.experience-preview-thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .social-icon {
   width: 26px;
   height: 26px;
@@ -768,9 +793,10 @@ body::before {
 
 .experience-item {
   display: flex;
-  align-items: flex-start;
-  gap: 24px;
-  padding: 28px 32px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  padding: 24px 24px 26px;
   border-radius: 20px;
   background: rgba(15, 15, 20, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -781,7 +807,7 @@ body::before {
 .experience-item:hover {
   background: rgba(20, 20, 28, 0.8);
   border-color: rgba(255, 255, 255, 0.15);
-  transform: translateX(4px);
+  transform: translateY(-4px);
 }
 
 .experience-content {
@@ -811,22 +837,6 @@ body::before {
   font-size: 13px;
   color: #9ca3af;
   opacity: 0.7;
-}
-
-.experience-arrow-link {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #f97316;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.experience-item:hover .experience-arrow-link {
-  opacity: 1;
 }
 
 .tools-section {
@@ -879,6 +889,12 @@ body::before {
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.6);
 }
 
+.tool-icon img,
+.tool-icon svg {
+  width: 70%;
+  height: 70%;
+}
+
 .tool-icon.framer {
   color: #111827;
 }
@@ -892,7 +908,7 @@ body::before {
 }
 
 .tool-icon.chatgpt {
-  color: #22c55e;
+  color: #111827;
 }
 
 .tool-icon.notion {
@@ -900,8 +916,7 @@ body::before {
 }
 
 .tool-icon.nextjs {
-  background: #111827;
-  color: #f9fafb;
+  color: #111827;
 }
 
 .tool-text {
@@ -1135,6 +1150,13 @@ body::before {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.article-hero-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
 }
 
 .article-header-row {

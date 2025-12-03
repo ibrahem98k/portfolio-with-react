@@ -645,6 +645,18 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <div className="experience-preview">
+                    <div className="experience-preview-thumb">
+                      <video
+                        src="/IMG_8273.MP4"
+                        className="experience-video"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    </div>
+                  </div>
                   <div className="experience-content">
                     <h3 className="experience-company">Shu`la Lab</h3>
                     <p className="experience-description">
@@ -652,22 +664,6 @@ function App() {
                       reading experience across Android devices.
                     </p>
                     <p className="experience-dates">Jan 2024 - Present</p>
-                  </div>
-                  <div className="experience-arrow-link">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M7 7h10v10" />
-                      <path d="M7 17 17 7" />
-                    </svg>
                   </div>
                 </a>
 
@@ -677,6 +673,18 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <div className="experience-preview">
+                    <div className="experience-preview-thumb">
+                      <video
+                        src="/IMG_8276.MP4"
+                        className="experience-video"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    </div>
+                  </div>
                   <div className="experience-content">
                     <h3 className="experience-company">Hooverphonic – Mad About You (Live)</h3>
                     <p className="experience-description">
@@ -684,22 +692,6 @@ function App() {
                       showcasing cinematic strings and powerful vocals on stage.
                     </p>
                     <p className="experience-dates">Live session · 2012</p>
-                  </div>
-                  <div className="experience-arrow-link">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M7 7h10v10" />
-                      <path d="M7 17 17 7" />
-                    </svg>
                   </div>
                 </a>
 
@@ -709,6 +701,18 @@ function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <div className="experience-preview">
+                    <div className="experience-preview-thumb">
+                      <video
+                        src="/IMG_8278.MP4"
+                        className="experience-video"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                      />
+                    </div>
+                  </div>
                   <div className="experience-content">
                     <h3 className="experience-company">Glimpse of Us x La La Land Edit</h3>
                     <p className="experience-description">
@@ -716,22 +720,6 @@ function App() {
                       moments of Mia and Sebastian to the lyrics.
                     </p>
                     <p className="experience-dates">Video edit · 2022</p>
-                  </div>
-                  <div className="experience-arrow-link">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M7 7h10v10" />
-                      <path d="M7 17 17 7" />
-                    </svg>
                   </div>
                 </a>
               </div>
@@ -753,15 +741,11 @@ function App() {
                   rel="noreferrer"
                 >
                   <div className="tool-icon framer">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="34"
-                      height="34"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <path d="M5 3h10a1 1 0 0 1 .7.3l3 3A1 1 0 0 1 19 8h-6l4 4-3.3 3.3A1 1 0 0 1 13 16H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="#000000" />
-                    </svg>
+                    <img
+                      src="https://cdn.simpleicons.org/framer/000000"
+                      alt="Framer logo"
+                      style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                    />
                   </div>
                   <div className="tool-text">
                     <h3 className="tool-name">Framer</h3>
@@ -776,19 +760,11 @@ function App() {
                   rel="noreferrer"
                 >
                   <div className="tool-icon figma">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="34"
-                      height="34"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                    >
-                      <path d="M9 3h3a3 3 0 1 1 0 6H9z" fill="#f24e1e" />
-                      <path d="M9 9h3a3 3 0 1 1 0 6H9z" fill="#ff7262" />
-                      <path d="M9 15h3a3 3 0 1 1-3 3z" fill="#a259ff" />
-                      <path d="M6 3h3v6H6a3 3 0 1 1 0-6z" fill="#0acf83" />
-                      <path d="M6 9h3v6H6a3 3 0 1 1 0-6z" fill="#1abcfe" />
-                    </svg>
+                    <img
+                      src="https://cdn.simpleicons.org/figma/F24E1E"
+                      alt="Figma logo"
+                      style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                    />
                   </div>
                   <div className="tool-text">
                     <h3 className="tool-name">Figma</h3>
@@ -810,8 +786,14 @@ function App() {
                       viewBox="0 0 24 24"
                       fill="none"
                     >
-                      <path d="M8 4.5c.6-.4 1.4-.4 2 0l2.2 1.4a3 3 0 0 1 1.3 2.5v.2a3 3 0 0 1-1.3 2.5L9.9 13a2 2 0 0 1-2 0L5.7 11.1A3 3 0 0 1 4.5 8.7v-.2A3 3 0 0 1 5.7 6z" fill="#facc15" />
-                      <path d="M13.2 6.2 15 5.1a2 2 0 0 1 2.1.1l1.1.8a2 2 0 0 1 .3 3.1l-1.5 1.5" fill="#fbbf24" />
+                      <path
+                        d="M8 4.5c.6-.4 1.4-.4 2 0l2.2 1.4a3 3 0 0 1 1.3 2.5v.2a3 3 0 0 1-1.3 2.5L9.9 13a2 2 0 0 1-2 0L5.7 11.1A3 3 0 0 1 4.5 8.7v-.2A3 3 0 0 1 5.7 6z"
+                        fill="#facc15"
+                      />
+                      <path
+                        d="M13.2 6.2 15 5.1a2 2 0 0 1 2.1.1l1.1.8a2 2 0 0 1 .3 3.1l-1.5 1.5"
+                        fill="#fbbf24"
+                      />
                     </svg>
                   </div>
                   <div className="tool-text">
@@ -833,14 +815,17 @@ function App() {
                       height="34"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#22c55e"
+                      stroke="#111827"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <path d="M12 3.2 8 5.1 6.5 9 8 12.9 12 14.8 16 12.9 17.5 9 16 5.1z" />
-                      <path d="M8 5.1 12 7v3.8l-4-1.9z" />
-                      <path d="M16 5.1 12 7" />
+                      <path d="M12 4.5a3 3 0 0 1 5.2 2v1.1a3 3 0 0 1 .8 4.9 3 3 0 0 1-2.1 4.9H14" />
+                      <path d="M15.2 6.5 13 5.2a3 3 0 0 0-4.5 2.6v1.2l-1.4.8A3 3 0 0 0 7.7 16 3 3 0 0 0 12 18.5l1.8-1.1" />
+                      <path d="M8.8 17.5 7 16.4A3 3 0 0 1 6.2 12.9 3 3 0 0 1 7 8.4l1.3-.8" />
+                      <path d="M9 7.8 12 9.5v3.2l-2.6 1.5" />
+                      <path d="M15 10.2 12 9.5" />
+                      <path d="M12 12.7 14.8 14.3" />
                     </svg>
                   </div>
                   <div className="tool-text">
@@ -856,18 +841,11 @@ function App() {
                   rel="noreferrer"
                 >
                   <div className="tool-icon notion">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="black"
-                      strokeWidth="1.6"
-                    >
-                      <rect x="4" y="4" width="16" height="16" rx="2.5" fill="#ffffff" />
-                      <path d="M9 17V7l6 10V7" />
-                    </svg>
+                    <img
+                      src="https://cdn.simpleicons.org/notion/000000"
+                      alt="Notion logo"
+                      style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                    />
                   </div>
                   <div className="tool-text">
                     <h3 className="tool-name">Notion</h3>
@@ -882,15 +860,11 @@ function App() {
                   rel="noreferrer"
                 >
                   <div className="tool-icon nextjs">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="38"
-                      height="38"
-                      viewBox="0 0 48 24"
-                      fill="none"
-                    >
-                      <text x="4" y="16" fill="#ffffff" fontSize="10" fontFamily="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">NEXT.</text>
-                    </svg>
+                    <img
+                      src="https://cdn.simpleicons.org/nextdotjs/000000"
+                      alt="Next.js logo"
+                      style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }}
+                    />
                   </div>
                   <div className="tool-text">
                     <h3 className="tool-name">Nextjs</h3>
@@ -1187,7 +1161,15 @@ function App() {
 
           <div className="right-column article-right">
             <div className="article-hero-wrapper">
-              <img src="/2152001132.jpg" alt="Workspace" className="article-hero-image" />
+              <video
+                src="/IMG_8274.MP4"
+                className="article-hero-video"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              />
             </div>
 
             <h1 className="article-title">Starting and Growing a Career in Web Design</h1>
@@ -1421,10 +1403,14 @@ function App() {
 
           <div className="right-column article-right">
             <div className="article-hero-wrapper">
-              <img
-                src="/team-meeting-renewable-energy-project-close-up.jpg"
-                alt="Team meeting renewable energy project"
-                className="article-hero-image"
+              <video
+                src="/IMG_8275.MP4"
+                className="article-hero-video"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
               />
             </div>
 
@@ -1679,7 +1665,15 @@ function App() {
 
           <div className="right-column article-right">
             <div className="article-hero-wrapper">
-              <img src="/still-life-device-table.jpg" alt="Workspace" className="article-hero-image" />
+              <video
+                src="/IMG_8277.MP4"
+                className="article-hero-video"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              />
             </div>
 
             <h1 className="article-title">Starting and Growing a Career in Web Design</h1>
